@@ -316,6 +316,10 @@ ul.category-list {
       width: 1em;
     }
 
+    .protection, .number-events {
+      pointer-events: none;
+    }
+
     a {
       @include transition(color);
       display: block;
